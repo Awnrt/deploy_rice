@@ -1,4 +1,3 @@
-sudo pacman -Sy
 sudo pacman -Sy git xorg-server xorg-xrandr xorg-xrdb feh xorg-xinput xorg-xinit libx11 libxinerama libxft webkit2gtk conky picom lxappearance alsa-utils pulseaudio pulsemixer
 sudo cp undefined-medium.ttf /usr/share/fonts/ 
 cd /home/awy/
