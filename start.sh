@@ -29,3 +29,4 @@ sudo cp .conkyrc /home/awy/
 sudo cp -r wallpapers /home/awy/
 sudo cp -r macOSBigSur /usr/share/icons/
 sudo cp -r gtk-master /usr/share/themes/
+reboot
