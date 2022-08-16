@@ -1,4 +1,4 @@
-sudo pacman -Sy xorg-server xorg-xrandr xorg-xrdb feh xorg-xinput xorg-xinit xorg-xsetroot libx11 libxinerama libxft webkit2gtk conky picom lxappearance alsa-utils pulseaudio pulsemixer
+sudo pacman -Sy xorg-server xorg-xrandr xorg-xrdb feh xorg-xinput xorg-xinit xorg-xsetroot libx11 libxinerama libxft webkit2gtk conky picom lxappearance alsa-utils pulseaudio pulsemixer --noconfirm
 sudo cp undefined-medium.ttf /usr/share/fonts/ 
 cd /home/awy/
 git clone https://github.com/Awnrt/dwm
