@@ -18,6 +18,8 @@ mv gtkrc-2.0 .gtkrc-2.0
 sudo cp .gtkrc-2.0 /home/awy/
 mv xinitrc .xinitrc
 sudo cp .xinitrc /home/awy/
+sudo mkdir /home/awy/.config
+sudo mkdir /home/awy/.config/picom
 sudo cp -r gtk-3.0/ /home/awy/.config/
 sudo cp picom.conf /home/awy/.config/picom/
 mv Xresources .Xresources
