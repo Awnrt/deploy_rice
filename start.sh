@@ -13,8 +13,8 @@ cd ..
 git clone https://github.com/Awnrt/dmenu
 cd dmenu
 sudo make clean install
-cd deploy_rice
-echo "startx" >> /home/jimbob/.bash_profile
+cd /home/$USER/deploy_rice
+echo "startx" >> /home/$USER/.bash_profile
 mv gtkrc-2.0 .gtkrc-2.0
 cp .gtkrc-2.0 /home/$USER/
 mv xinitrc .xinitrc
