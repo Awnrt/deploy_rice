@@ -14,11 +14,15 @@ cd dmenu
 sudo make clean install
 cd ..
 echo "startx" >> /home/jimbob/.bash_profile
+mv gtkrc-2.0 .gtkrc-2.0
 cp .gtkrc-2.0 ~/
+mv xinitrc .xinitrc
 cp .xinitrc ~/
 cp -r gtk-3.0 ~/.config/
 cp picom.conf ~/.config/picom/
+mv Xresources .Xresources
 cp .Xresources ~/
+mv conkyrc .conkyrc
 cp .conkyrc ~/
 cp -r wallpapers ~/
 sudo cp -r macOSBigSur /usr/share/icons/
