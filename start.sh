@@ -27,8 +27,8 @@ cp .Xresources /home/awy/
 mv conkyrc .conkyrc
 cp .conkyrc /home/awy/
 cp -r wallpapers /home/awy/
-cp -r macOSBigSur /usr/share/icons/
-cp -r gtk-master /usr/share/themes/
+sudo cp -r macOSBigSur /usr/share/icons/
+sudo cp -r gtk-master /usr/share/themes/
 
 sudo timedatectl set-timezone Europe/Moscow
 sudo timedatectl set-ntp 1
