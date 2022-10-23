@@ -15,20 +15,20 @@ sudo make clean install
 cd /home/awy/deploy_rice
 echo "startx" >> /home/awy/.bash_profile
 mv gtkrc-2.0 .gtkrc-2.0
-sudo cp .gtkrc-2.0 /home/awy/
+cp .gtkrc-2.0 /home/awy/
 mv xinitrc .xinitrc
-sudo cp .xinitrc /home/awy/
+cp .xinitrc /home/awy/
 mkdir /home/awy/.config
 mkdir /home/awy/.config/picom
-sudo cp -r gtk-3.0/ /home/awy/.config/
-sudo cp picom.conf /home/awy/.config/picom/
+cp -r gtk-3.0/ /home/awy/.config/
+cp picom.conf /home/awy/.config/picom/
 mv Xresources .Xresources
-sudo cp .Xresources /home/awy/
+cp .Xresources /home/awy/
 mv conkyrc .conkyrc
-sudo cp .conkyrc /home/awy/
-sudo cp -r wallpapers /home/awy/
-sudo cp -r macOSBigSur /usr/share/icons/
-sudo cp -r gtk-master /usr/share/themes/
+cp .conkyrc /home/awy/
+cp -r wallpapers /home/awy/
+cp -r macOSBigSur /usr/share/icons/
+cp -r gtk-master /usr/share/themes/
 
 sudo timedatectl set-timezone Europe/Moscow
 sudo timedatectl set-ntp 1
