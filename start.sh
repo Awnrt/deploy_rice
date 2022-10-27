@@ -1,5 +1,6 @@
 sudo pacman -Sy xorg-server xorg-xrandr xorg-xrdb feh xorg-xinput xorg-xinit xorg-xsetroot libx11 libxinerama libxft webkit2gtk conky picom alsa-utils pulseaudio pulseaudio-bluetooth pulsemixer --noconfirm
-sudo cp undefined-medium.ttf /usr/share/fonts/ 
+sudo pacman -Sy ttf-ubuntu-font-family xcursor-vanilla-dmz --noconfirm
+#sudo cp undefined-medium.ttf /usr/share/fonts/ 
 cd /home/awy/
 git clone https://github.com/Awnrt/dwm
 cd dwm
@@ -27,8 +28,8 @@ cp .Xresources /home/awy/
 mv conkyrc .conkyrc
 cp .conkyrc /home/awy/
 cp -r wallpapers /home/awy/
-sudo cp -r macOSBigSur /usr/share/icons/
-sudo cp -r gtk-master /usr/share/themes/
+#sudo cp -r macOSBigSur /usr/share/icons/
+#sudo cp -r gtk-master /usr/share/themes/
 
 sudo timedatectl set-timezone Europe/Moscow
 sudo timedatectl set-ntp 1
