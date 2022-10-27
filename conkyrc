@@ -7,5 +7,5 @@ total_run_times = 0,
 use_spacer = 'none',
 };
 conky.text = [[
-[UP:${upspeed eno1}] [DOWN:${downspeed eno1}] [CPU ${cpu cpu1}%] [RAM $memperc%] ${time %a %b %d %I:%M%P}
+[CPU ${cpu cpu1}%] [RAM $memperc%] ${time %a %b %d %H:%M}
 ]];
